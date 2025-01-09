@@ -8,7 +8,7 @@ class Student:
 std1=Student()
 std2=Student()
 
-std1.initial('Amar','Ali','MCT-UET-01')
+Student.initial(std1,'Amar','Ali','MCT-UET-01')
 std2.initial('Akbar','Khan','MCT-UET-02')
 
 print(std1.fName)
